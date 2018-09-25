@@ -1,0 +1,23 @@
+/* PHASE 8: Thumbs */
+.thumb-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.thumb-parent > li {
+  width: 60px;
+  margin: 0 0 10px 0;
+}
+.thumb {
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: relative;
+}
+
+.thumb:nth(3n+1) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.thumb:after {
+  position: absolute;
+}
